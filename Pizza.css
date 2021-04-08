@@ -1,0 +1,220 @@
+*{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.big{
+    background-color: palevioletred;
+}
+.vbig{
+    background-color: antiquewhite;
+}
+
+a.firstlink{
+    font-family: 'pacifico',cursive;
+    font-size: 2.5rem;
+}
+li{
+    padding-left: 30px;
+}
+button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(66, 224, 66);
+    border: 0px;
+    color: black;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.btn1{
+    background-color:orange;
+}
+button.btn1:hover{
+    background-color: white;
+    transition: all 1s;
+}
+.bigdiv{
+    background-image: url('10.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+i{
+    color: darkslategrey;
+    
+}
+div.first:hover i.one{
+    color: wheat;
+    transition: ease  .75s;
+    position: relative;
+    bottom: 10px;
+}
+div.second:hover i.two{
+    color: wheat;
+    transition: ease  .75s;
+    position: relative;
+    bottom: 10px;
+}
+div.third:hover i.three{
+    color: wheat;
+    transition: ease .75s;
+    position: relative;
+    bottom: 10px;
+}
+
+p{
+    font-style: italic;
+    font-size: 10px;
+    color: black;
+}
+p:hover{
+    color: orange;
+    cursor: pointer;
+}
+.div1{
+    background-image: url('1.jpg');
+    background-size: cover;
+}
+.div1:hover{
+    transform: scale(1.1);
+    transition: all .4s;
+}
+.div2{
+    background-image: url('2.png');
+    background-size: cover;
+}
+.div2:hover{
+    transform: scale(1.1);
+    transition: all .4s;
+}
+.div3{
+    background-image: url('3.jpg');
+    background-size: cover;
+}
+.div3:hover{
+    transform: scale(1.1);
+    transition: all .4s;
+}
+.div4{
+    background-image: url('3.jpg');
+    background-size: cover;
+}
+.div4:hover{
+    transform: translatey(-10px);
+    transition: all 600ms ease;
+
+}
+ul{
+    color: darkblue;
+    border-radius: 20px;
+}
+li{
+    padding: 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    color:darkblue;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+}
+li:hover{
+   background-color: orange;
+    transition: all .7s;
+    border-radius: 10px;
+
+    
+}
+a{
+    color: white;
+}
+nav{
+    border-radius: 10px;
+}
+div.divnew{
+    background-color:yellow;
+   border-radius: 20px;
+
+}
+div.divnew:hover {
+   background-color: #fff;
+   transition: all 1s;
+   color: black;
+}
+.span10:hover{
+color: black;
+}
+.icon3{
+    color: blue;
+    font-style: italic;
+}
+.icon3:hover{
+    color: black;
+   transition: all 1s;
+   cursor: pointer;
+}
+.btn7{
+    background-color:rgb(104, 47, 194);
+    font-weight: bold;
+}
+button.btn7:hover{
+background-color: palevioletred;
+}
+img{
+    border-radius: 50%;
+}
+div img:hover{
+    transform: translatey(-10px);
+    transition: all .4s .1s;
+}
+
+h2{
+    color: rgb(247, 213, 213);
+}
+
+.innerdiv{
+    position: absolute;
+    background-color: rgb(68, 151, 206);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    bottom: -30px;
+    left: 50px;
+    z-index: 5;
+}
+.news{
+    background-image: url('6.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+}
+.news:hover{
+    transform: translatey(-10px);
+    transition: all .4s .1s;
+}
+.pizza{
+   
+    /* background-image: url('12.png');
+    background-size: cover;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

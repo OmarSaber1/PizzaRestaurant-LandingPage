@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Pizza.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid bg-dark bigdiv"
+      style=" background-color: aliceblue"
+    >
+      <nav class="navbar navbar-expand-lg navbar-dark py-5">
+        <div class="container">
+          <a class="navbar-brand firstlink" href="#"
+            ><span style="color: orange">PIZZ</span
+            ><span style="color: red">ON</span></a
+          >
+          <button
+            class="navbar-toggler bg-danger"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >Select</button>
+          <div
+            class="collapse navbar-collapse px-5"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav ml-auto mb-2 mb-lg-0 w-100 justify-content-around"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MENU
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Reservation</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  ><i class="fas fa-phone fa-lg"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  ><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                  Prushuce</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-warning">Page</button>
+        </div>
+      </nav>
+
+      <!-- End of nav  -->
+      <div class="container">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide justify-content-center"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner" >
+          <div class="carousel-item active justify-content-center" data-bs-interval="1000" >
+            <img src="3.png" class="d-block pl-5" style="border-radius: 30px;" />
+           
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="3.jpg" class="d-block " style="border-radius: 30px;"/>
+          </div>
+          <div class="carousel-item"  data-bs-interval="1000">
+            <img src="1.jpg" class="d-block " style="border-radius: 30px;"/>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+
+    <div class="container-fluid bg-danger">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-3 text-center my-5 first">
+            <i
+              class="fas fa-pizza-slice fa-5x one"
+              style="padding-bottom: 15px"
+            ></i>
+            <h2 style="padding-bottom: 5px">ORDER FOOD HERE</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatem dignissimos nam voluptas saepe maxime, quae assumenda
+              quidem officiis vitae atque nemo quis amet odio maiores in
+              praesentium sequi voluptates! Veniam
+            </p>
+          </div>
+          <div class="col-3 text-center my-5 second">
+            <i class="fas fa-truck fa-5x two" style="padding-bottom: 15px"></i>
+            <h2 style="padding-bottom: 5px">DELIVERY & PACKUP</h2>
+            <p>
+              lorem Voluptatem dignissimos nam voluptas saepe maxime, quae
+              assumenda quidem officiis vitae atque nemo quis amet odio maiores
+              in praesentium sequi voluptates! Veniam
+            </p>
+          </div>
+          <div class="col-3 text-center my-5 third">
+            <i
+              class="fas fa-utensils fa-5x three"
+              style="padding-bottom: 15px"
+            ></i>
+            <h2 style="padding-bottom: 5px">DELICIOUS RECIPITS</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatem dignissimos nam voluptas saepe maxime, quae assumenda
+              quidem officiis vitae atque nemo quis amet odio maiores in
+              praesentium sequi voluptates! Veniam
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end two  -->
+    </div>
+    <div class="container-fluid big">
+      <div class="container d-grid justify-content-center text-center">
+        <div style="padding-top: 30px">
+          <h1 style="color: white">Order Pizza Now!</h1>
+          <p style="color: wheat">Check out here!</p>
+        </div>
+        <div style="display: flex; justify-content: space-around; width: 700px">
+          <div>
+            <div
+              class="div1"
+              style="
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+          </div>
+
+          <div>
+            <div
+              class="div2"
+              style="border-radius: 50%; width: 150px; height: 150px"
+            ></div>
+            <br />
+            <p>Pizza marshmello</p>
+          </div>
+          <div>
+            <div
+              class="div3"
+              style="border-radius: 50%; width: 150px; height: 150px"
+            ></div>
+            <br />
+            <p>Pizza vega</p>
+          </div>
+        </div>
+        <div>
+          <button class="btn1 mt-4 mb-4">View more!</button>
+        </div>
+      </div>
+    </div>
+    <!-- End  section 3-->
+
+    <div class="container-fluid text-center vbig">
+      <div class="container d-grid" style="width: 900px; padding-top: 15px">
+        <div>
+          <p>Fresh From Sea</p>
+          <h1>To Your belly</h1>
+
+          <div>
+            <nav
+              class="navbar navbar-expand-lg navbar-light bg-info justify-content-center mb-5x"
+              style="height: 60px"
+            >
+              <div
+                class="justify-content-center"
+                id="navbarNav"
+                style="width: 600px; height: 40px"
+              >
+                <ul>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Drinks <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Salad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pasta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Burger</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Desserts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PIZZA</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div
+          class="d-flex wrapper"
+          style="
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 25px;
+          "
+        >
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+          <div>
+            <div
+              class="div4"
+              style="
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                background-color: #fff;
+              "
+            ></div>
+            <br />
+            <p>Pizza Margrita</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <p>20$ each</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End section 4 -->
+
+    <div class="container-fluid bg-light" style="padding-bottom: 15px">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-4">
+            <h3 style="padding-top: 30px">Fresh From Pizzon</h3>
+            <h1>BOOK ONLINE</h1>
+            <p style="font-size: 19px">
+              Sit amet, consectetur adipiscing elit quisque eget maximus velit,
+              non eleifend libero curabitur dapibus mauris sed leo cursus
+              aliquetcras suscipit. Sit amet, consectetur adipiscing elit
+              quisque eget maximus velit, non eleifend libero curabitur
+            </p>
+            <div
+              class="divnew"
+              style="
+                border: 5px solid orange;
+                margin: 20px 0px 30px 0px;
+                padding-bottom: 3px;
+                text-align: center;
+              "
+            >
+              <i class="fas fa-blender-phone fa-1x icon3">+201092307357</i>
+              <span
+                class="span10"
+                style="font-size: 27px; font-weight: bold; color: white"
+              ></span>
+            </div>
+          </div>
+          <div class="col-6">
+            <form>
+              <h2
+                style="
+                  text-align: center;
+                  padding-top: 30px;
+                  padding-bottom: 10px;
+                "
+              >
+                Book A table
+              </h2>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="container-fluid">
+                <button
+                  class="btn7"
+                  type="submit"
+                  style="width: 100%; margin-top: 10px"
+                >
+                  Book Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of section 4 -->
+
+    <div class="container-fluid bg-dark" >
+      <div
+        class="container d-grid justify-content-center ;"
+        style="text-align: center;"
+      >
+        <div class=" pt-5" style="width: 1200px;height: 180px; ">
+          <h2 style="color: white">Meet our experts</h2>
+          <h1 style="color: white">OUR BEST CHEF</h1>
+        </div>
+        <div class="container">
+        <div class="row mt-5 gx-4">
+          <div class="col-3 col-xs-6">
+            <img src="6.jpg" style="width: 200px;height: 200px;">
+            <h2 style="font-style: italic;">Mr Baker</h2>
+          </div>
+          <div class="col-3 col-xs-6"><img src="6.jpg" style="width: 200px;height: 200px;">
+            <h2 style="font-style: italic;">Mr Baker</h2></div>
+          <div class="col-3 col-xs-6"><img src="6.jpg" style="width: 200px;height: 200px;">
+            <h2 style="font-style: italic;">Mr Baker</h2></div>
+          <div class="col-3 col-xs-6"><img src="6.jpg" style="width: 200px;height: 200px;">
+            <h2 style="font-style: italic;">Mr Baker</h2> </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn btn-danger mt-5 mb-5">Contant now</button>
+      </div>
+        </div>
+        </div>
+        
+              
+        
+                 <!-- End section -->
+                
+                 <div class="container-fluid bg-light " >
+                  <div
+                    class="container d-grid justify-content-center ;"
+                    style="text-align: center;"
+                  >
+                    <div class="pt-5" style="width: 1200px;height: 120px; ">
+                      <h2 style="color: black">Our Daily and weekly</h2>
+                      <h1 style="color: black">news</h1>
+                    </div>
+                    <div class="container mb-5">
+                    <div class="row mt-5 gx-4 justify-content-around">
+                        <div class="col-3 col-xs-12 news ">
+                          <h2 style="font-style: italic;">Mr Baker</h2>
+                          <div class="innerdiv pt-4">Jun 8</div>
+                        </div>
+                      <div class="col-3 col-xs-12 news">
+                        <h2 style="font-style: italic;">Mr Baker</h2>
+                        <div class="innerdiv pt-4">Jun 8</div>
+                      </div>
+                      <div class="col-3 col-xs-12 news">
+                        <h2 style="font-style: italic;">Mr Baker</h2>
+                        <div class="innerdiv pt-4">Jun 8</div>
+                       </div>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="btn btn-dark mt-5 mb-5">join now</button>
+                  </div>
+                    </div>
+                    </div>
+
+                                          <!-- End of section -->
+
+
+                    <div class="container-fluid bg-dark">
+                      <div
+                    class="container d-grid justify-content-center "
+                    style="text-align: center;"
+                  >
+                    <div class="pt-5 bg-info mb-5;" style="width: 1200px ">
+                      <h1 style="color: black">What Say Our Clients
+
+                        </h1>
+                      <h1 style="color: black">Reviews</h1>
+                    </div>
+                    <div class="container mt-5">
+                    <div class="row " style="align-items: center;">
+                      <div class="col-2 col-md-4 col-xs-6" ><img src="6.jpg" style="height: 100px;width: 100px;border-radius: 50%;"></div>
+                      <div class="col-8 col-md-6 col-xs-4"><img src="10.png" style="width: 100%; height: 10%;border-radius:20px;"></div>
+                      <div>
+                        <button class="btn btn-danger mt-5 mb-5">Join</button>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+
+                    </div>
+                    
+
+                                    <!-- end section   -->
+
+
+                    <div class="container-fluid bg-light" >
+                      <div class="container ">
+                        <div class="row pt-5" >
+                          <div class="col-6 d-grid pb-5">
+                            <div>
+                            <h3>Delcious Restaurant</h3>
+                            <h1>About Pizzon</h1>
+                          </div>
+                          <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sed excepturi porro harum dolor, sint repudiandae dolores quisquam vitae eius eos dicta, possimus necessitatibus quas quam delectus tempore corporis optio in exercitationem laboriosam quod enim? Non commodi ab, est totam, ut blanditiis mollitia nemo iste optio aut amet in aliquam modi autem magnam sed quis, eaque voluptatem enim provident maiores. Sit sapiente soluta modi dolore ratione ullam, minus hic corporis tempora quod blanditiis suscipit cum libero temporibus cumque ea! Ad!</p>
+                          </div>
+                          <div>
+                            <button >View more</button>
+                          </div>
+                          </div>
+                          <div class="col-6 d-flex justify-content-center  aling-items-center"   >
+                              <div class="pizza " style="width: 300px;height: 300px;">
+                                <img src="12.png" style="max-width: 100%;max-height: 100%;">
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                                                     <!-- end section   -->
+
+
+
+                  <div class="container-fluid bg-danger pt-4 pb-4">
+                    <div class="container d-flex  ">
+                      <div class="d-grid justify-content-between">
+                        <h1>PIZZON</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero aut cum, cupiditate eaque quam error corporis porro molestias architecto voluptate.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, vitae!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                      </div>
+                      <div class="d-grid justify-content-between">
+                        <h1>PIZZON</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero aut cum, cupiditate eaque quam error corporis porro molestias architecto voluptate.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, vitae!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                      </div>
+                      <div class="d-grid justify-content-between">
+                        <h1>PIZZON</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero aut cum, cupiditate eaque quam error corporis porro molestias architecto voluptate.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, vitae!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="container d-flex justify-content-between ">
+                    <div>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, obcaecati.</p>
+                    </div>
+                    <div class="d-flex w-100 justify-content-center" >
+                      <div>
+                      <i class="fab fa-facebook-f pl-5" style="width: 50px;"></i>
+                    </div>
+                    <div>
+                      <i class="fab fa-twitter pl-5" style="width: 50px;"></i>
+                      </div>
+                      <div>
+                      <i class="fab fa-instagram" style="width: 50px;"></i>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
